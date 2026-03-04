@@ -1,0 +1,239 @@
+{
+  "data": {
+    "nodeVendors": {
+      "__typename": "NodeVendorConnection",
+      "nodes": [
+        {
+          "__typename": "NodeVendor",
+          "id": "vendor-morning-glory",
+          "title": "Morning Glory Farm",
+          "path": "/vendors/morning-glory-farm",
+          "body": {
+            "processed": "<p>Morning Glory Farm is a 60-acre certified organic vegetable farm run by the Jensen family just 12 miles outside of Maplewood. They have been a founding vendor at the market for all 30 years, and their booth is always one of the most popular stops on a Saturday morning.</p><h2>Our Growing Philosophy</h2><p>The Jensens practice regenerative organic farming, building soil health through cover cropping, minimal tillage, and diverse crop rotations. Their commitment to quality means everything is harvested within 24 hours of market day.</p>",
+            "summary": "Morning Glory Farm is a 60-acre certified organic vegetable farm run by the Jensen family just 12 miles outside of Maplewood. They have been a founding vendor at the market for all 30 years, and their"
+          },
+          "vendorType": [
+            {
+              "id": "Produce",
+              "name": "Produce"
+            }
+          ],
+          "products": "Seasonal organic vegetables, salad greens, herbs, heirloom tomatoes",
+          "locationNumber": "A-01",
+          "websiteUrl": "https://morninggloryfarm.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+            "alt": "Fresh organic vegetables at the Morning Glory Farm booth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        },
+        {
+          "__typename": "NodeVendor",
+          "id": "vendor-hearth-bakery",
+          "title": "Hearth & Stone Bakery",
+          "path": "/vendors/hearth-stone-bakery",
+          "body": {
+            "processed": "<p>Baker Maria Chen left a career in finance to pursue her passion for artisan bread-making. Her naturally leavened sourdough breads, croissants, and seasonal pastries have earned a devoted following. Everything is made with locally milled flour and organic ingredients.</p><h2>Signature Items</h2><p>The country sourdough and chocolate croissants sell out quickly, so arrive early. Maria also creates seasonal specials like apple cardamom danish in fall and lavender lemon scones in summer. Custom bread orders are accepted mid-week for Saturday pickup.</p>",
+            "summary": "Baker Maria Chen left a career in finance to pursue her passion for artisan bread-making. Her naturally leavened sourdough breads, croissants, and seasonal pastries have earned a devoted following. Ev"
+          },
+          "vendorType": [
+            {
+              "id": "Bakery",
+              "name": "Bakery"
+            }
+          ],
+          "products": "Sourdough breads, croissants, pastries, seasonal baked goods",
+          "locationNumber": "B-03",
+          "websiteUrl": "https://hearthstonebakery.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+            "alt": "Artisan sourdough breads and pastries at the bakery booth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        },
+        {
+          "__typename": "NodeVendor",
+          "id": "vendor-meadow-creek",
+          "title": "Meadow Creek Dairy",
+          "path": "/vendors/meadow-creek-dairy",
+          "body": {
+            "processed": "<p>Meadow Creek Dairy is a small family creamery producing handcrafted cheese from the milk of their own grass-fed Jersey cows. Their cheeses have won multiple state fair awards and are featured in several local restaurants.</p><h2>Cheese Selection</h2><p>Look for their award-winning aged cheddar, creamy fresh chevre, seasonal herbed fromage blanc, and rich cultured butter. They also sell farm-fresh milk, cream, and yogurt. Samples are always available at their booth.</p>",
+            "summary": "Meadow Creek Dairy is a small family creamery producing handcrafted cheese from the milk of their own grass-fed Jersey cows. Their cheeses have won multiple state fair awards and are featured in sever"
+          },
+          "vendorType": [
+            {
+              "id": "Dairy",
+              "name": "Dairy"
+            }
+          ],
+          "products": "Artisan cheese, fresh milk, yogurt, cultured butter, cream",
+          "locationNumber": "B-07",
+          "websiteUrl": "https://meadowcreekdairy.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80",
+            "alt": "Selection of handcrafted artisan cheeses",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        },
+        {
+          "__typename": "NodeVendor",
+          "id": "vendor-oak-hill-meats",
+          "title": "Oak Hill Heritage Meats",
+          "path": "/vendors/oak-hill-meats",
+          "body": {
+            "processed": "<p>Oak Hill Heritage Meats raises heritage breed livestock on pasture using humane, sustainable methods. Their Berkshire pork, Highland beef, and pastured poultry offer exceptional flavor that reflects the animals' natural diet and stress-free living conditions.</p><h2>What's Available</h2><p>Weekly offerings include fresh and frozen cuts of beef, pork, and chicken, as well as house-made sausages, bacon, and deli meats. Whole and half animal shares are available by pre-order for families who want to stock their freezers.</p>",
+            "summary": "Oak Hill Heritage Meats raises heritage breed livestock on pasture using humane, sustainable methods. Their Berkshire pork, Highland beef, and pastured poultry offer exceptional flavor that reflects t"
+          },
+          "vendorType": [
+            {
+              "id": "Meat & Poultry",
+              "name": "Meat & Poultry"
+            }
+          ],
+          "products": "Grass-fed beef, pasture-raised pork, free-range chicken, house-made sausages",
+          "locationNumber": "C-02",
+          "websiteUrl": "https://oakhillmeats.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+            "alt": "Heritage breed cattle grazing on pasture at Oak Hill Farm",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": false
+        },
+        {
+          "__typename": "NodeVendor",
+          "id": "vendor-wildwood-flowers",
+          "title": "Wildwood Flower Farm",
+          "path": "/vendors/wildwood-flower-farm",
+          "body": {
+            "processed": "<p>Wildwood Flower Farm grows over 100 varieties of cut flowers on three acres just outside Maplewood. Owner and floral designer Lily Park creates stunning hand-tied bouquets and arrangements using only what she grows, offering customers truly seasonal and local florals.</p><h2>Seasonal Bouquets</h2><p>Spring brings tulips, ranunculus, and sweet peas. Summer features dahlias, zinnias, and sunflowers. Fall is filled with chrysanthemums, celosia, and dried arrangements. Subscription bouquets are available for weekly or bi-weekly pickup at the market.</p>",
+            "summary": "Wildwood Flower Farm grows over 100 varieties of cut flowers on three acres just outside Maplewood. Owner and floral designer Lily Park creates stunning hand-tied bouquets and arrangements using only "
+          },
+          "vendorType": [
+            {
+              "id": "Flowers",
+              "name": "Flowers"
+            }
+          ],
+          "products": "Fresh bouquets, seasonal arrangements, dried flowers, flower subscriptions",
+          "locationNumber": "D-01",
+          "websiteUrl": "https://wildwoodflowers.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+            "alt": "Beautiful fresh flower bouquets at the market booth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": false
+        }
+      ]
+    }
+  }
+}

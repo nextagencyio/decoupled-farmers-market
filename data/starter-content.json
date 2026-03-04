@@ -1,0 +1,506 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Landing page with hero section, stats, and call-to-action areas",
+      "fields": [
+        {
+          "id": "hero_title",
+          "label": "Hero Title",
+          "type": "string",
+          "description": "Main headline in the hero section"
+        },
+        {
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "type": "string",
+          "description": "Secondary text below the hero title"
+        },
+        {
+          "id": "hero_description",
+          "label": "Hero Description",
+          "type": "text",
+          "description": "Longer descriptive text for the hero section"
+        },
+        {
+          "id": "stats_items",
+          "label": "Stats Items",
+          "type": "paragraph(stat_item)[]",
+          "description": "List of statistics to display"
+        },
+        {
+          "id": "featured_vendors_title",
+          "label": "Featured Vendors Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_title",
+          "label": "CTA Section Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_description",
+          "label": "CTA Description",
+          "type": "text"
+        },
+        {
+          "id": "cta_primary",
+          "label": "Primary CTA Text",
+          "type": "string"
+        },
+        {
+          "id": "cta_secondary",
+          "label": "Secondary CTA Text",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "vendor",
+      "label": "Vendor",
+      "description": "Local vendor selling products at the farmers market",
+      "body": true,
+      "fields": [
+        {
+          "id": "vendor_type",
+          "label": "Vendor Type",
+          "type": "term(vendor_types)[]",
+          "description": "Type of vendor"
+        },
+        {
+          "id": "products",
+          "label": "Products",
+          "type": "string",
+          "description": "Products offered by the vendor"
+        },
+        {
+          "id": "location_number",
+          "label": "Location Number",
+          "type": "string",
+          "description": "Booth or stall number at the market"
+        },
+        {
+          "id": "website_url",
+          "label": "Website URL",
+          "type": "string",
+          "description": "Vendor website"
+        },
+        {
+          "id": "image",
+          "label": "Vendor Image",
+          "type": "image",
+          "description": "Main image for the vendor"
+        },
+        {
+          "id": "featured",
+          "label": "Featured",
+          "type": "bool",
+          "description": "Whether this vendor is featured"
+        }
+      ]
+    },
+    {
+      "bundle": "event",
+      "label": "Event",
+      "description": "Market events, workshops, and special occasions",
+      "body": true,
+      "fields": [
+        {
+          "id": "event_date",
+          "label": "Event Date",
+          "type": "datetime",
+          "description": "Start date and time"
+        },
+        {
+          "id": "end_date",
+          "label": "End Date",
+          "type": "datetime",
+          "description": "End date and time"
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "string",
+          "description": "Event location"
+        },
+        {
+          "id": "event_type",
+          "label": "Event Type",
+          "type": "term(event_types)[]",
+          "description": "Type of event"
+        },
+        {
+          "id": "image",
+          "label": "Event Image",
+          "type": "image",
+          "description": "Main image for the event"
+        }
+      ]
+    },
+    {
+      "bundle": "season",
+      "label": "Season",
+      "description": "Market season with operating hours and dates",
+      "body": true,
+      "fields": [
+        {
+          "id": "start_date",
+          "label": "Start Date",
+          "type": "datetime",
+          "description": "Season start date"
+        },
+        {
+          "id": "end_date",
+          "label": "End Date",
+          "type": "datetime",
+          "description": "Season end date"
+        },
+        {
+          "id": "hours",
+          "label": "Hours",
+          "type": "string",
+          "description": "Operating hours during this season"
+        },
+        {
+          "id": "image",
+          "label": "Season Image",
+          "type": "image",
+          "description": "Image representing this season"
+        }
+      ]
+    },
+    {
+      "bundle": "news",
+      "label": "News",
+      "description": "Market news, announcements, and updates",
+      "body": true,
+      "fields": [
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image",
+          "description": "Main image for the news article"
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "type": "term(news_categories)[]",
+          "description": "News category"
+        },
+        {
+          "id": "featured",
+          "label": "Featured",
+          "type": "bool",
+          "description": "Whether this news item is featured"
+        }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, policies, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Stat Item",
+      "description": "A single statistic with number and label",
+      "fields": [
+        {
+          "id": "number",
+          "label": "Number",
+          "type": "string!",
+          "description": "The statistic number or value (required)"
+        },
+        {
+          "id": "label",
+          "label": "Label",
+          "type": "string!",
+          "description": "Description label for the statistic (required)"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-vendors",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "75+",
+        "label": "Local Vendors"
+      }
+    },
+    {
+      "id": "stat-years",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "25",
+        "label": "Years Running"
+      }
+    },
+    {
+      "id": "stat-visitors",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "5,000+",
+        "label": "Weekly Visitors"
+      }
+    },
+    {
+      "id": "stat-acres",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "12",
+        "label": "Acres of Market"
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Riverside Farmers Market",
+        "hero_title": "Fresh from Farm to Table",
+        "hero_subtitle": "Riverside Farmers Market",
+        "hero_description": "<p>Discover the finest locally grown produce, artisan goods, and handcrafted products from our community of passionate farmers and vendors every Saturday morning.</p>",
+        "stats_items": [
+          "@stat-vendors",
+          "@stat-years",
+          "@stat-visitors",
+          "@stat-acres"
+        ],
+        "featured_vendors_title": "Featured Vendors",
+        "cta_title": "Visit Us This Weekend",
+        "cta_description": "<p>Open every Saturday from 7 AM to 1 PM, rain or shine. Located at the heart of downtown Riverside with free parking available.</p>",
+        "cta_primary": "Visit Market",
+        "cta_secondary": "View Vendors"
+      }
+    },
+    {
+      "id": "vendor-green-valley",
+      "type": "node.vendor",
+      "path": "/vendors/green-valley-organics",
+      "values": {
+        "title": "Green Valley Organics",
+        "body": "<p>Green Valley Organics has been a cornerstone of the Riverside Farmers Market for over 15 years. Our family-owned farm specializes in certified organic vegetables, herbs, and microgreens grown using sustainable farming practices.</p><h2>Our Philosophy</h2><p>We believe in working with nature, not against it. Our fields are enriched with natural compost, and we use integrated pest management to keep our crops healthy without synthetic chemicals.</p>",
+        "vendor_type": ["produce"],
+        "products": "Organic vegetables, herbs, microgreens, seasonal berries",
+        "location_number": "A-12",
+        "website_url": "https://greenvalleyorganics.example.com",
+        "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+        "featured": true
+      }
+    },
+    {
+      "id": "vendor-honeybee",
+      "type": "node.vendor",
+      "path": "/vendors/honeybee-apiaries",
+      "values": {
+        "title": "Honeybee Apiaries",
+        "body": "<p>At Honeybee Apiaries, we are passionate about sustainable beekeeping and producing the highest quality raw honey. Our apiaries are spread across wildflower meadows throughout the Riverside County region.</p><h2>Our Products</h2><p>From raw wildflower honey to creamed honey and beeswax candles, every product we offer comes directly from our own hives, ensuring purity and freshness.</p>",
+        "vendor_type": ["specialty"],
+        "products": "Raw honey, creamed honey, honeycomb, beeswax candles",
+        "location_number": "B-05",
+        "website_url": "https://honeybeeapiaries.example.com",
+        "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80",
+        "featured": true
+      }
+    },
+    {
+      "id": "vendor-sunrise-bakery",
+      "type": "node.vendor",
+      "path": "/vendors/sunrise-artisan-bakery",
+      "values": {
+        "title": "Sunrise Artisan Bakery",
+        "body": "<p>Sunrise Artisan Bakery brings the tradition of European bread-making to the Riverside Farmers Market. Every loaf is handcrafted using stone-milled flour, natural leavening, and time-honored techniques.</p><h2>Baked Fresh Weekly</h2><p>We bake fresh every Friday night so that our breads, pastries, and croissants arrive at the market warm and fragrant Saturday morning.</p>",
+        "vendor_type": ["bakery"],
+        "products": "Sourdough bread, croissants, pastries, artisan rolls",
+        "location_number": "C-01",
+        "website_url": "https://sunrisebakery.example.com",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+        "featured": true
+      }
+    },
+    {
+      "id": "vendor-river-ridge",
+      "type": "node.vendor",
+      "path": "/vendors/river-ridge-dairy",
+      "values": {
+        "title": "River Ridge Dairy",
+        "body": "<p>River Ridge Dairy is a small family dairy producing handcrafted cheeses and fresh dairy products from our pasture-raised herd of heritage breed cows. Our animals graze on lush grasslands year-round.</p><h2>Award-Winning Cheeses</h2><p>Our aged cheddar won the 2024 Regional Cheese Competition gold medal, and our fresh mozzarella continues to be a market best-seller every week.</p>",
+        "vendor_type": ["dairy"],
+        "products": "Artisan cheese, fresh milk, yogurt, butter",
+        "location_number": "B-08",
+        "website_url": "https://riverridgedairy.example.com",
+        "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80",
+        "featured": false
+      }
+    },
+    {
+      "id": "vendor-wildflower",
+      "type": "node.vendor",
+      "path": "/vendors/wildflower-bouquets",
+      "values": {
+        "title": "Wildflower Bouquets",
+        "body": "<p>Wildflower Bouquets grows stunning seasonal flowers on our two-acre plot just outside Riverside. We specialize in sustainable floriculture, growing without pesticides and using natural water conservation methods.</p><h2>Custom Arrangements</h2><p>Stop by our booth for ready-made bouquets or let us create a custom arrangement for your special occasion. We also offer weekly flower subscriptions.</p>",
+        "vendor_type": ["flowers"],
+        "products": "Fresh bouquets, dried flowers, potted plants, flower subscriptions",
+        "location_number": "D-03",
+        "website_url": "https://wildflowerbouquets.example.com",
+        "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+        "featured": false
+      }
+    },
+    {
+      "id": "event-harvest-fest",
+      "type": "node.event",
+      "path": "/events/annual-harvest-festival",
+      "values": {
+        "title": "Annual Harvest Festival",
+        "body": "<p>Join us for our biggest event of the year! The Annual Harvest Festival celebrates the bounty of the season with live music, cooking demonstrations, kids' activities, and special vendor offerings.</p><h2>What to Expect</h2><ul><li>Live music from local bands throughout the day</li><li>Cooking demos by Chef Maria Rodriguez</li><li>Kids' pumpkin decorating station</li><li>Apple cider pressing demonstrations</li><li>Special harvest-themed vendor booths</li></ul>",
+        "event_date": "2025-10-18T09:00:00",
+        "end_date": "2025-10-18T16:00:00",
+        "location": "Riverside Market Grounds - Main Pavilion",
+        "event_type": ["festival"],
+        "image": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80"
+      }
+    },
+    {
+      "id": "event-cooking-class",
+      "type": "node.event",
+      "path": "/events/farm-to-table-cooking-class",
+      "values": {
+        "title": "Farm-to-Table Cooking Class",
+        "body": "<p>Learn how to create delicious seasonal meals using fresh ingredients from our market vendors. Chef Sarah Chen will guide you through three recipes featuring produce available that morning.</p><h2>Menu</h2><ul><li>Heirloom tomato gazpacho with fresh basil</li><li>Grilled summer squash with herb vinaigrette</li><li>Peach and berry galette with local honey</li></ul><p>All ingredients are included. Limited to 20 participants.</p>",
+        "event_date": "2025-08-09T10:00:00",
+        "end_date": "2025-08-09T12:30:00",
+        "location": "Market Community Kitchen",
+        "event_type": ["workshop"],
+        "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80"
+      }
+    },
+    {
+      "id": "event-kids-garden",
+      "type": "node.event",
+      "path": "/events/kids-garden-workshop",
+      "values": {
+        "title": "Kids' Garden Workshop",
+        "body": "<p>A hands-on gardening experience for children ages 5-12. Kids will learn about planting seeds, composting, and the journey of food from seed to plate.</p><h2>Activities</h2><ul><li>Plant your own herb garden to take home</li><li>Learn about pollinators and beneficial insects</li><li>Taste test fresh vegetables from the garden</li><li>Nature scavenger hunt around the market</li></ul><p>Free for all market visitors. Supervised by Master Gardener volunteers.</p>",
+        "event_date": "2025-07-26T09:30:00",
+        "end_date": "2025-07-26T11:00:00",
+        "location": "Market Children's Garden Area",
+        "event_type": ["family"],
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80"
+      }
+    },
+    {
+      "id": "season-spring",
+      "type": "node.season",
+      "path": "/seasons/spring-market",
+      "values": {
+        "title": "Spring Market",
+        "body": "<p>Spring at the Riverside Farmers Market brings the first fresh greens, strawberries, and spring flowers. Watch our vendor count grow as more farms come online after winter dormancy.</p><h2>What's in Season</h2><p>Look for asparagus, peas, radishes, lettuce, strawberries, spring onions, and the first herbs of the year. Our flower vendors return with tulips, daffodils, and lilacs.</p>",
+        "start_date": "2025-04-05T07:00:00",
+        "end_date": "2025-06-28T13:00:00",
+        "hours": "Saturdays 7:00 AM - 1:00 PM",
+        "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&q=80"
+      }
+    },
+    {
+      "id": "season-summer",
+      "type": "node.season",
+      "path": "/seasons/summer-market",
+      "values": {
+        "title": "Summer Market",
+        "body": "<p>Summer is our peak season with the widest variety of produce and the most vendors. Enjoy the full bounty of the growing season with tomatoes, corn, peaches, and so much more.</p><h2>What's in Season</h2><p>Tomatoes, sweet corn, peaches, melons, peppers, squash, beans, cucumbers, berries, and a dazzling array of fresh herbs and flowers.</p>",
+        "start_date": "2025-07-05T07:00:00",
+        "end_date": "2025-09-27T13:00:00",
+        "hours": "Saturdays 7:00 AM - 1:00 PM",
+        "image": "https://images.unsplash.com/photo-1498579397066-22750a3cb424?w=800&q=80"
+      }
+    },
+    {
+      "id": "season-fall",
+      "type": "node.season",
+      "path": "/seasons/fall-market",
+      "values": {
+        "title": "Fall Market",
+        "body": "<p>Fall brings the harvest season with pumpkins, apples, root vegetables, and warm baked goods. The market takes on a festive atmosphere with autumn decorations and seasonal specialties.</p><h2>What's in Season</h2><p>Apples, pumpkins, winter squash, sweet potatoes, beets, turnips, Brussels sprouts, pears, and the last of the season's peppers and tomatoes.</p>",
+        "start_date": "2025-10-04T08:00:00",
+        "end_date": "2025-11-22T12:00:00",
+        "hours": "Saturdays 8:00 AM - 12:00 PM",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+      }
+    },
+    {
+      "id": "season-winter",
+      "type": "node.season",
+      "path": "/seasons/winter-holiday-market",
+      "values": {
+        "title": "Winter Holiday Market",
+        "body": "<p>Our special winter market runs monthly from December through March, featuring preserved goods, baked items, crafts, and greenhouse-grown greens. A wonderful place to find holiday gifts.</p><h2>What's Available</h2><p>Preserved jams and pickles, baked goods, holiday wreaths, handmade crafts, root vegetables, greenhouse greens, and hot cider and cocoa.</p>",
+        "start_date": "2025-12-06T09:00:00",
+        "end_date": "2026-03-07T12:00:00",
+        "hours": "First Saturday of each month, 9:00 AM - 12:00 PM",
+        "image": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=800&q=80"
+      }
+    },
+    {
+      "id": "news-expansion",
+      "type": "node.news",
+      "path": "/news/market-expansion-2025",
+      "values": {
+        "title": "Market Expansion: New Vendor Pavilion Opening",
+        "body": "<p>We're thrilled to announce the opening of our new covered vendor pavilion, adding space for 20 additional vendors. The expansion, made possible by a community grant, includes a permanent demonstration kitchen and improved accessibility features.</p><h2>What This Means</h2><p>More local vendors, more variety, and a better experience for our visitors. The new pavilion will be weather-protected and include electric hookups for vendors who need refrigeration.</p>",
+        "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+        "category": ["announcement"],
+        "featured": true
+      }
+    },
+    {
+      "id": "news-chef-series",
+      "type": "node.news",
+      "path": "/news/summer-chef-series",
+      "values": {
+        "title": "Summer Chef Demo Series Lineup Announced",
+        "body": "<p>This summer, we're hosting six renowned local chefs for our Saturday morning cooking demonstration series. Each week, a different chef will prepare a dish using only ingredients from the market.</p><h2>Featured Chefs</h2><ul><li>Chef Maria Rodriguez - Mexican street food</li><li>Chef David Park - Korean-inspired fusion</li><li>Chef Sarah Chen - Farm-to-table seasonal</li></ul><p>Demos are free with market admission and begin at 10 AM at the Community Kitchen stage.</p>",
+        "image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&q=80",
+        "category": ["event-news"],
+        "featured": true
+      }
+    },
+    {
+      "id": "news-volunteer",
+      "type": "node.news",
+      "path": "/news/volunteer-program-launch",
+      "values": {
+        "title": "New Volunteer Program: Help Your Market Thrive",
+        "body": "<p>We're launching a new volunteer program for community members who want to support the Riverside Farmers Market. Volunteers help with setup, information booths, event coordination, and social media outreach.</p><h2>Benefits</h2><ul><li>Free market tote bag and t-shirt</li><li>Early access to vendor offerings</li><li>Invitation to volunteer appreciation events</li><li>Community service hours for students</li></ul><p>Sign up at the information booth or email volunteers@riversidefarmersmarket.com.</p>",
+        "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+        "category": ["community"],
+        "featured": false
+      }
+    },
+    {
+      "id": "about-page",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Riverside Farmers Market",
+        "body": "<p>The Riverside Farmers Market has been a beloved community gathering place since 1999. What started as a small group of local farmers selling produce from the back of their trucks has grown into one of the region's premier outdoor markets.</p><h2>Our Mission</h2><p>To connect local farmers, artisans, and food producers directly with the community, promoting sustainable agriculture, healthy eating, and local economic development.</p><h2>Community Impact</h2><p>Each year, the market generates over $2 million in direct sales for local businesses, diverts tons of food miles from the supply chain, and provides a vibrant social gathering space for our community.</p>"
+      }
+    },
+    {
+      "id": "contact-page",
+      "type": "node.page",
+      "path": "/contact",
+      "values": {
+        "title": "Contact Us",
+        "body": "<p>Have questions about the Riverside Farmers Market? We'd love to hear from you!</p><h2>Market Location</h2><p>123 River Street<br>Riverside, CA 92501</p><h2>Get in Touch</h2><p>Email: info@riversidefarmersmarket.com<br>Phone: (951) 555-0123</p><h2>Vendor Inquiries</h2><p>Interested in becoming a vendor? Email vendors@riversidefarmersmarket.com for an application.</p>"
+      }
+    }
+  ]
+}

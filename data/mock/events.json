@@ -1,0 +1,156 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-spring-opening",
+          "title": "Spring Opening Day Celebration",
+          "path": "/events/spring-opening-day",
+          "body": {
+            "processed": "<p>Kick off the outdoor market season with our festive Spring Opening Day. After months of winter markets indoors, we return to our outdoor home in the town square with live music, special vendor offerings, and activities for the whole family.</p><h2>Activities</h2><ul><li>Live acoustic music from local artists all morning</li><li>Free seedling giveaway (while supplies last)</li><li>Kids' planting station - pot your own herb to take home</li><li>Vendor specials and seasonal tastings</li><li>Welcome back raffle with prizes from market vendors</li></ul>",
+            "summary": "Kick off the outdoor market season with our festive Spring Opening Day. After months of winter markets indoors, we return to our outdoor home in the town square with live music, special vendor offerin"
+          },
+          "eventDate": {
+            "timestamp": 1777726800
+          },
+          "endDate": {
+            "timestamp": 1777744800
+          },
+          "location": "Maplewood Town Square",
+          "eventType": [
+            {
+              "id": "Seasonal",
+              "name": "Seasonal"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "alt": "Outdoor farmers market bustling with visitors on opening day",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-canning-workshop",
+          "title": "Home Canning & Preserving Workshop",
+          "path": "/events/home-canning-workshop",
+          "body": {
+            "processed": "<p>Learn the art of home canning and preserving from Master Food Preserver Sandra Williams. This hands-on workshop covers water bath canning basics, making jams and pickles, and food safety essentials. Each participant will take home two jars of their own creations.</p><h2>Workshop Details</h2><ul><li>Duration: 3 hours</li><li>All materials and ingredients provided</li><li>Limited to 15 participants</li><li>Registration required - $25 per person</li><li>Includes a home canning starter kit</li></ul>",
+            "summary": "Learn the art of home canning and preserving from Master Food Preserver Sandra Williams. This hands-on workshop covers water bath canning basics, making jams and pickles, and food safety essentials. E"
+          },
+          "eventDate": {
+            "timestamp": 1786802400
+          },
+          "endDate": {
+            "timestamp": 1786813200
+          },
+          "location": "Market Community Kitchen",
+          "eventType": [
+            {
+              "id": "Workshop",
+              "name": "Workshop"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+            "alt": "Jars of homemade preserves and canned goods",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-harvest-fest",
+          "title": "Fall Harvest Festival",
+          "path": "/events/fall-harvest-festival",
+          "body": {
+            "processed": "<p>Celebrate the season's bounty at our annual Fall Harvest Festival, the biggest market event of the year. Enjoy an expanded market with additional vendors, live music, pie-baking contest, pumpkin decorating, and a community harvest dinner in the evening.</p><h2>Festival Schedule</h2><ul><li>8:00 AM - Expanded market opens with 80+ vendors</li><li>9:00 AM - Live bluegrass music begins</li><li>10:00 AM - Apple cider pressing demonstration</li><li>11:00 AM - Pie-baking contest judging</li><li>12:00 PM - Kids' pumpkin decorating station opens</li><li>5:00 PM - Community harvest dinner (tickets required)</li></ul>",
+            "summary": "Celebrate the season's bounty at our annual Fall Harvest Festival, the biggest market event of the year. Enjoy an expanded market with additional vendors, live music, pie-baking contest, pumpkin decor"
+          },
+          "eventDate": {
+            "timestamp": 1792242000
+          },
+          "endDate": {
+            "timestamp": 1792281600
+          },
+          "location": "Maplewood Town Square & Community Center",
+          "eventType": [
+            {
+              "id": "Festival",
+              "name": "Festival"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+            "alt": "Autumn harvest display with pumpkins and fall produce",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

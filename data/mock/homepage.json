@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Maplewood Farmers Market",
+          "path": "/homepage",
+          "heroTitle": "Fresh, Local, Community",
+          "heroSubtitle": "Maplewood Farmers Market",
+          "heroDescription": {
+            "processed": "<p>For thirty years, the Maplewood Farmers Market has been the heart of our community, connecting local farmers, artisans, and food producers directly with the families who love their products. Visit us every Saturday morning.</p>",
+            "summary": "For thirty years, the Maplewood Farmers Market has been the heart of our community, connecting local farmers, artisans, and food producers directly with the families who love their products. Visit us "
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-vendors",
+              "title": "",
+              "number": "60+",
+              "label": "Local Vendors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "30",
+              "label": "Years Strong"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-visitors",
+              "title": "",
+              "number": "4,000+",
+              "label": "Weekly Visitors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-local",
+              "title": "",
+              "number": "100%",
+              "label": "Locally Sourced"
+            }
+          ],
+          "featuredItemsTitle": "Featured Vendors",
+          "ctaTitle": "Visit Us This Saturday",
+          "ctaDescription": {
+            "processed": "<p>Open every Saturday from 8 AM to 1 PM in the heart of downtown Maplewood. Free parking, live music, and the freshest local food you will find anywhere.</p>",
+            "summary": "Open every Saturday from 8 AM to 1 PM in the heart of downtown Maplewood. Free parking, live music, and the freshest local food you will find anywhere."
+          },
+          "ctaPrimary": "View All Vendors",
+          "ctaSecondary": "Get Directions"
+        }
+      ]
+    }
+  }
+}

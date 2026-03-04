@@ -1,0 +1,826 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Maplewood Farmers Market",
+          "path": "/homepage",
+          "heroTitle": "Fresh, Local, Community",
+          "heroSubtitle": "Maplewood Farmers Market",
+          "heroDescription": {
+            "processed": "<p>For thirty years, the Maplewood Farmers Market has been the heart of our community, connecting local farmers, artisans, and food producers directly with the families who love their products. Visit us every Saturday morning.</p>",
+            "summary": "For thirty years, the Maplewood Farmers Market has been the heart of our community, connecting local farmers, artisans, and food producers directly with the families who love their products. Visit us "
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-vendors",
+              "title": "",
+              "number": "60+",
+              "label": "Local Vendors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "30",
+              "label": "Years Strong"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-visitors",
+              "title": "",
+              "number": "4,000+",
+              "label": "Weekly Visitors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-local",
+              "title": "",
+              "number": "100%",
+              "label": "Locally Sourced"
+            }
+          ],
+          "featuredItemsTitle": "Featured Vendors",
+          "ctaTitle": "Visit Us This Saturday",
+          "ctaDescription": {
+            "processed": "<p>Open every Saturday from 8 AM to 1 PM in the heart of downtown Maplewood. Free parking, live music, and the freshest local food you will find anywhere.</p>",
+            "summary": "Open every Saturday from 8 AM to 1 PM in the heart of downtown Maplewood. Free parking, live music, and the freshest local food you will find anywhere."
+          },
+          "ctaPrimary": "View All Vendors",
+          "ctaSecondary": "Get Directions"
+        }
+      }
+    }
+  },
+  "/vendors/morning-glory-farm": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeVendor",
+          "id": "vendor-morning-glory",
+          "title": "Morning Glory Farm",
+          "path": "/vendors/morning-glory-farm",
+          "body": {
+            "processed": "<p>Morning Glory Farm is a 60-acre certified organic vegetable farm run by the Jensen family just 12 miles outside of Maplewood. They have been a founding vendor at the market for all 30 years, and their booth is always one of the most popular stops on a Saturday morning.</p><h2>Our Growing Philosophy</h2><p>The Jensens practice regenerative organic farming, building soil health through cover cropping, minimal tillage, and diverse crop rotations. Their commitment to quality means everything is harvested within 24 hours of market day.</p>",
+            "summary": "Morning Glory Farm is a 60-acre certified organic vegetable farm run by the Jensen family just 12 miles outside of Maplewood. They have been a founding vendor at the market for all 30 years, and their"
+          },
+          "vendorType": [
+            {
+              "id": "Produce",
+              "name": "Produce"
+            }
+          ],
+          "products": "Seasonal organic vegetables, salad greens, herbs, heirloom tomatoes",
+          "locationNumber": "A-01",
+          "websiteUrl": "https://morninggloryfarm.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+            "alt": "Fresh organic vegetables at the Morning Glory Farm booth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        }
+      }
+    }
+  },
+  "/vendors/hearth-stone-bakery": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeVendor",
+          "id": "vendor-hearth-bakery",
+          "title": "Hearth & Stone Bakery",
+          "path": "/vendors/hearth-stone-bakery",
+          "body": {
+            "processed": "<p>Baker Maria Chen left a career in finance to pursue her passion for artisan bread-making. Her naturally leavened sourdough breads, croissants, and seasonal pastries have earned a devoted following. Everything is made with locally milled flour and organic ingredients.</p><h2>Signature Items</h2><p>The country sourdough and chocolate croissants sell out quickly, so arrive early. Maria also creates seasonal specials like apple cardamom danish in fall and lavender lemon scones in summer. Custom bread orders are accepted mid-week for Saturday pickup.</p>",
+            "summary": "Baker Maria Chen left a career in finance to pursue her passion for artisan bread-making. Her naturally leavened sourdough breads, croissants, and seasonal pastries have earned a devoted following. Ev"
+          },
+          "vendorType": [
+            {
+              "id": "Bakery",
+              "name": "Bakery"
+            }
+          ],
+          "products": "Sourdough breads, croissants, pastries, seasonal baked goods",
+          "locationNumber": "B-03",
+          "websiteUrl": "https://hearthstonebakery.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+            "alt": "Artisan sourdough breads and pastries at the bakery booth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        }
+      }
+    }
+  },
+  "/vendors/meadow-creek-dairy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeVendor",
+          "id": "vendor-meadow-creek",
+          "title": "Meadow Creek Dairy",
+          "path": "/vendors/meadow-creek-dairy",
+          "body": {
+            "processed": "<p>Meadow Creek Dairy is a small family creamery producing handcrafted cheese from the milk of their own grass-fed Jersey cows. Their cheeses have won multiple state fair awards and are featured in several local restaurants.</p><h2>Cheese Selection</h2><p>Look for their award-winning aged cheddar, creamy fresh chevre, seasonal herbed fromage blanc, and rich cultured butter. They also sell farm-fresh milk, cream, and yogurt. Samples are always available at their booth.</p>",
+            "summary": "Meadow Creek Dairy is a small family creamery producing handcrafted cheese from the milk of their own grass-fed Jersey cows. Their cheeses have won multiple state fair awards and are featured in sever"
+          },
+          "vendorType": [
+            {
+              "id": "Dairy",
+              "name": "Dairy"
+            }
+          ],
+          "products": "Artisan cheese, fresh milk, yogurt, cultured butter, cream",
+          "locationNumber": "B-07",
+          "websiteUrl": "https://meadowcreekdairy.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80",
+            "alt": "Selection of handcrafted artisan cheeses",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true
+        }
+      }
+    }
+  },
+  "/vendors/oak-hill-meats": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeVendor",
+          "id": "vendor-oak-hill-meats",
+          "title": "Oak Hill Heritage Meats",
+          "path": "/vendors/oak-hill-meats",
+          "body": {
+            "processed": "<p>Oak Hill Heritage Meats raises heritage breed livestock on pasture using humane, sustainable methods. Their Berkshire pork, Highland beef, and pastured poultry offer exceptional flavor that reflects the animals' natural diet and stress-free living conditions.</p><h2>What's Available</h2><p>Weekly offerings include fresh and frozen cuts of beef, pork, and chicken, as well as house-made sausages, bacon, and deli meats. Whole and half animal shares are available by pre-order for families who want to stock their freezers.</p>",
+            "summary": "Oak Hill Heritage Meats raises heritage breed livestock on pasture using humane, sustainable methods. Their Berkshire pork, Highland beef, and pastured poultry offer exceptional flavor that reflects t"
+          },
+          "vendorType": [
+            {
+              "id": "Meat & Poultry",
+              "name": "Meat & Poultry"
+            }
+          ],
+          "products": "Grass-fed beef, pasture-raised pork, free-range chicken, house-made sausages",
+          "locationNumber": "C-02",
+          "websiteUrl": "https://oakhillmeats.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+            "alt": "Heritage breed cattle grazing on pasture at Oak Hill Farm",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": false
+        }
+      }
+    }
+  },
+  "/vendors/wildwood-flower-farm": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeVendor",
+          "id": "vendor-wildwood-flowers",
+          "title": "Wildwood Flower Farm",
+          "path": "/vendors/wildwood-flower-farm",
+          "body": {
+            "processed": "<p>Wildwood Flower Farm grows over 100 varieties of cut flowers on three acres just outside Maplewood. Owner and floral designer Lily Park creates stunning hand-tied bouquets and arrangements using only what she grows, offering customers truly seasonal and local florals.</p><h2>Seasonal Bouquets</h2><p>Spring brings tulips, ranunculus, and sweet peas. Summer features dahlias, zinnias, and sunflowers. Fall is filled with chrysanthemums, celosia, and dried arrangements. Subscription bouquets are available for weekly or bi-weekly pickup at the market.</p>",
+            "summary": "Wildwood Flower Farm grows over 100 varieties of cut flowers on three acres just outside Maplewood. Owner and floral designer Lily Park creates stunning hand-tied bouquets and arrangements using only "
+          },
+          "vendorType": [
+            {
+              "id": "Flowers",
+              "name": "Flowers"
+            }
+          ],
+          "products": "Fresh bouquets, seasonal arrangements, dried flowers, flower subscriptions",
+          "locationNumber": "D-01",
+          "websiteUrl": "https://wildwoodflowers.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+            "alt": "Beautiful fresh flower bouquets at the market booth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": false
+        }
+      }
+    }
+  },
+  "/events/spring-opening-day": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-spring-opening",
+          "title": "Spring Opening Day Celebration",
+          "path": "/events/spring-opening-day",
+          "body": {
+            "processed": "<p>Kick off the outdoor market season with our festive Spring Opening Day. After months of winter markets indoors, we return to our outdoor home in the town square with live music, special vendor offerings, and activities for the whole family.</p><h2>Activities</h2><ul><li>Live acoustic music from local artists all morning</li><li>Free seedling giveaway (while supplies last)</li><li>Kids' planting station - pot your own herb to take home</li><li>Vendor specials and seasonal tastings</li><li>Welcome back raffle with prizes from market vendors</li></ul>",
+            "summary": "Kick off the outdoor market season with our festive Spring Opening Day. After months of winter markets indoors, we return to our outdoor home in the town square with live music, special vendor offerin"
+          },
+          "eventDate": {
+            "timestamp": 1777726800
+          },
+          "endDate": {
+            "timestamp": 1777744800
+          },
+          "location": "Maplewood Town Square",
+          "eventType": [
+            {
+              "id": "Seasonal",
+              "name": "Seasonal"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "alt": "Outdoor farmers market bustling with visitors on opening day",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/home-canning-workshop": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-canning-workshop",
+          "title": "Home Canning & Preserving Workshop",
+          "path": "/events/home-canning-workshop",
+          "body": {
+            "processed": "<p>Learn the art of home canning and preserving from Master Food Preserver Sandra Williams. This hands-on workshop covers water bath canning basics, making jams and pickles, and food safety essentials. Each participant will take home two jars of their own creations.</p><h2>Workshop Details</h2><ul><li>Duration: 3 hours</li><li>All materials and ingredients provided</li><li>Limited to 15 participants</li><li>Registration required - $25 per person</li><li>Includes a home canning starter kit</li></ul>",
+            "summary": "Learn the art of home canning and preserving from Master Food Preserver Sandra Williams. This hands-on workshop covers water bath canning basics, making jams and pickles, and food safety essentials. E"
+          },
+          "eventDate": {
+            "timestamp": 1786802400
+          },
+          "endDate": {
+            "timestamp": 1786813200
+          },
+          "location": "Market Community Kitchen",
+          "eventType": [
+            {
+              "id": "Workshop",
+              "name": "Workshop"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+            "alt": "Jars of homemade preserves and canned goods",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/fall-harvest-festival": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-harvest-fest",
+          "title": "Fall Harvest Festival",
+          "path": "/events/fall-harvest-festival",
+          "body": {
+            "processed": "<p>Celebrate the season's bounty at our annual Fall Harvest Festival, the biggest market event of the year. Enjoy an expanded market with additional vendors, live music, pie-baking contest, pumpkin decorating, and a community harvest dinner in the evening.</p><h2>Festival Schedule</h2><ul><li>8:00 AM - Expanded market opens with 80+ vendors</li><li>9:00 AM - Live bluegrass music begins</li><li>10:00 AM - Apple cider pressing demonstration</li><li>11:00 AM - Pie-baking contest judging</li><li>12:00 PM - Kids' pumpkin decorating station opens</li><li>5:00 PM - Community harvest dinner (tickets required)</li></ul>",
+            "summary": "Celebrate the season's bounty at our annual Fall Harvest Festival, the biggest market event of the year. Enjoy an expanded market with additional vendors, live music, pie-baking contest, pumpkin decor"
+          },
+          "eventDate": {
+            "timestamp": 1792242000
+          },
+          "endDate": {
+            "timestamp": 1792281600
+          },
+          "location": "Maplewood Town Square & Community Center",
+          "eventType": [
+            {
+              "id": "Festival",
+              "name": "Festival"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+            "alt": "Autumn harvest display with pumpkins and fall produce",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/seasons/outdoor-market": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSeason",
+          "id": "season-outdoor",
+          "title": "Outdoor Market Season",
+          "path": "/seasons/outdoor-market",
+          "body": {
+            "processed": "<p>Our outdoor market season runs from May through October in the Maplewood Town Square. This is when the market is at its biggest and busiest, with 60+ vendors offering the widest variety of seasonal produce, baked goods, meats, cheeses, flowers, and artisan products.</p><h2>What to Expect</h2><p>The outdoor market is a true community gathering place. Arrive early for the best selection, especially baked goods and prepared foods. Live music performs most Saturdays, and rotating special events keep things fresh throughout the season. Dogs on leashes are welcome.</p>",
+            "summary": "Our outdoor market season runs from May through October in the Maplewood Town Square. This is when the market is at its biggest and busiest, with 60+ vendors offering the widest variety of seasonal pr"
+          },
+          "startDate": {
+            "timestamp": 1777726800
+          },
+          "endDate": {
+            "timestamp": 1793469600
+          },
+          "hours": "Every Saturday 8:00 AM - 1:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+            "alt": "Bustling outdoor farmers market on a sunny morning",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/seasons/winter-indoor-market": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSeason",
+          "id": "season-indoor",
+          "title": "Winter Indoor Market",
+          "path": "/seasons/winter-indoor-market",
+          "body": {
+            "processed": "<p>When the frost arrives, the market moves indoors to the Maplewood Community Center. The winter market features a curated group of 25-30 vendors offering stored root vegetables, greenhouse greens, baked goods, preserved foods, meats, cheeses, and artisan crafts perfect for holiday gift-giving.</p><h2>Winter Market Highlights</h2><p>The indoor market has a cozy, festive atmosphere with hot coffee from our coffee vendor, holiday wreaths and greens from local flower farms, and specialty food items that make excellent gifts. December markets feature extended holiday gift shopping hours.</p>",
+            "summary": "When the frost arrives, the market moves indoors to the Maplewood Community Center. The winter market features a curated group of 25-30 vendors offering stored root vegetables, greenhouse greens, bake"
+          },
+          "startDate": {
+            "timestamp": 1794063600
+          },
+          "endDate": {
+            "timestamp": 1808672400
+          },
+          "hours": "Every other Saturday 9:00 AM - 12:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=800&q=80",
+            "alt": "Indoor winter farmers market with holiday atmosphere",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/seasons/holiday-market": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSeason",
+          "id": "season-holiday",
+          "title": "Holiday Market",
+          "path": "/seasons/holiday-market",
+          "body": {
+            "processed": "<p>Our special Holiday Market runs on the first three Saturdays of December with extended hours and a festive atmosphere. Find unique handmade gifts, holiday baked goods, wreaths, gift baskets, and seasonal treats. Hot cider, cocoa, and carolers add to the holiday spirit.</p><h2>Gift Guide</h2><p>Looking for the perfect locally-made gift? Our vendors offer curated gift boxes, handmade soap and candle sets, artisan food baskets, and custom flower arrangements. Pre-orders are encouraged for popular items.</p>",
+            "summary": "Our special Holiday Market runs on the first three Saturdays of December with extended hours and a festive atmosphere. Find unique handmade gifts, holiday baked goods, wreaths, gift baskets, and seaso"
+          },
+          "startDate": {
+            "timestamp": 1796482800
+          },
+          "endDate": {
+            "timestamp": 1797710400
+          },
+          "hours": "Saturdays 9:00 AM - 2:00 PM (extended hours)",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+            "alt": "Festive holiday market with wreaths and seasonal decorations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/new-vendors-spring-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-new-vendors",
+          "title": "Welcoming Five New Vendors for Spring 2026",
+          "path": "/news/new-vendors-spring-2026",
+          "body": {
+            "processed": "<p>We are excited to announce five new vendors joining the Maplewood Farmers Market for the 2026 outdoor season. After a competitive application process, these local businesses were selected for the quality of their products and their commitment to sustainable, local production.</p><h2>New Vendors</h2><ul><li><strong>Blue Ridge Mushrooms</strong> - Specialty and medicinal mushrooms grown locally</li><li><strong>Sweet Maple Confections</strong> - Handmade chocolates and maple confections</li><li><strong>Hilltop Herb Farm</strong> - Fresh herbs, dried herb blends, and herbal teas</li><li><strong>River Stone Pottery</strong> - Handcrafted functional pottery and ceramics</li><li><strong>Sol Kitchen</strong> - Prepared international street food made with local ingredients</li></ul><p>Join us on Opening Day, May 2nd, to welcome our newest vendors to the market family.</p>",
+            "summary": "We are excited to announce five new vendors joining the Maplewood Farmers Market for the 2026 outdoor season. After a competitive application process, these local businesses were selected for the qual"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "alt": "Vibrant farmers market scene with vendor booths",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "Announcement",
+              "name": "Announcement"
+            }
+          ],
+          "featured": true
+        }
+      }
+    }
+  },
+  "/news/snap-double-dollars-program": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-snap-program",
+          "title": "SNAP Double Dollars Program Returns for 2026",
+          "path": "/news/snap-double-dollars-program",
+          "body": {
+            "processed": "<p>Thanks to renewed funding from the Maplewood Community Foundation, our SNAP Double Dollars program will continue for the 2026 market season. The program matches SNAP benefits dollar-for-dollar up to $20 per market visit, making fresh, local food more accessible to all community members.</p><h2>How It Works</h2><ul><li>Visit the Market Information Booth with your EBT card</li><li>Swipe your card for any amount up to $20</li><li>Receive matching wooden tokens good for fruits and vegetables</li><li>Shop at any vendor displaying the SNAP-accepted sign</li></ul><p>Since its launch in 2019, the program has distributed over $85,000 in matching funds to families in our community.</p>",
+            "summary": "Thanks to renewed funding from the Maplewood Community Foundation, our SNAP Double Dollars program will continue for the 2026 market season. The program matches SNAP benefits dollar-for-dollar up to $"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+            "alt": "Community members shopping at the farmers market",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "Community",
+              "name": "Community"
+            }
+          ],
+          "featured": true
+        }
+      }
+    }
+  },
+  "/news/summer-music-lineup": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-music-lineup",
+          "title": "Summer Live Music Lineup Announced",
+          "path": "/news/summer-music-lineup",
+          "body": {
+            "processed": "<p>Live music returns to the Maplewood Farmers Market every Saturday morning this summer. We are thrilled to partner with the Maplewood Arts Council to bring talented local musicians to the market bandstand from 9 AM to 12 PM.</p><h2>June Lineup</h2><ul><li>June 6: The Porch Swingers (acoustic folk)</li><li>June 13: Maria Santos Trio (Latin jazz)</li><li>June 20: Blue Creek Bluegrass Band</li><li>June 27: The Songbirds (vocal harmony group)</li></ul><p>The full summer schedule through October will be posted at the market information booth and on our website. All performances are free and supported by the Maplewood Arts Council.</p>",
+            "summary": "Live music returns to the Maplewood Farmers Market every Saturday morning this summer. We are thrilled to partner with the Maplewood Arts Council to bring talented local musicians to the market bandst"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
+            "alt": "Live musician performing at an outdoor market",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "Event News",
+              "name": "Event News"
+            }
+          ],
+          "featured": false
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "about-page",
+          "title": "About Maplewood Farmers Market",
+          "path": "/about",
+          "body": {
+            "processed": "<p>The Maplewood Farmers Market was founded in 1996 by a group of local farmers who wanted a direct connection to the community they fed. What began as eight vendors in a church parking lot has grown into one of the region's most vibrant farmers markets, with over 60 vendors and thousands of weekly visitors.</p><h2>Our Mission</h2><p>To strengthen the local food system by providing a vibrant marketplace where farmers, food producers, and artisans connect directly with the community, promoting sustainable agriculture, healthy eating, and economic vitality.</p><h2>Community Impact</h2><p>The Maplewood Farmers Market generates over $1.5 million in annual sales for local businesses, accepts SNAP/EBT benefits with a dollar-matching program, and donates unsold produce to the Maplewood Food Pantry at the end of every market day.</p>",
+            "summary": "The Maplewood Farmers Market was founded in 1996 by a group of local farmers who wanted a direct connection to the community they fed. What began as eight vendors in a church parking lot has grown int"
+          }
+        }
+      }
+    }
+  },
+  "/become-a-vendor": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "vendor-info-page",
+          "title": "Become a Vendor",
+          "path": "/become-a-vendor",
+          "body": {
+            "processed": "<p>Interested in selling at the Maplewood Farmers Market? We welcome applications from local farmers, food producers, and artisans within a 75-mile radius of Maplewood.</p><h2>Vendor Requirements</h2><ul><li>All products must be grown, raised, or produced by the vendor</li><li>Farms must be within 75 miles of Maplewood</li><li>Appropriate licenses and insurance required</li><li>Commitment to attend a minimum of 75% of market days</li><li>Compliance with all state and local food safety regulations</li></ul><h2>Application Process</h2><p>Applications for the upcoming season are accepted from January 1 through February 28. Our vendor selection committee reviews applications and conducts farm/facility visits. Decisions are announced by March 31.</p><h2>Fees</h2><p>Seasonal booth fee: $500 (outdoor season)<br>Daily vendor fee: $35 per market day<br>Winter market: $250 per season</p><p>For more information or to request an application, contact us at vendors@maplewoodmarket.org.</p>",
+            "summary": "Interested in selling at the Maplewood Farmers Market? We welcome applications from local farmers, food producers, and artisans within a 75-mile radius of Maplewood.Vendor RequirementsAll products mus"
+          }
+        }
+      }
+    }
+  }
+}

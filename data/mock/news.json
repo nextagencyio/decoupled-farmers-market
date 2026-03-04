@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-new-vendors",
+          "title": "Welcoming Five New Vendors for Spring 2026",
+          "path": "/news/new-vendors-spring-2026",
+          "body": {
+            "processed": "<p>We are excited to announce five new vendors joining the Maplewood Farmers Market for the 2026 outdoor season. After a competitive application process, these local businesses were selected for the quality of their products and their commitment to sustainable, local production.</p><h2>New Vendors</h2><ul><li><strong>Blue Ridge Mushrooms</strong> - Specialty and medicinal mushrooms grown locally</li><li><strong>Sweet Maple Confections</strong> - Handmade chocolates and maple confections</li><li><strong>Hilltop Herb Farm</strong> - Fresh herbs, dried herb blends, and herbal teas</li><li><strong>River Stone Pottery</strong> - Handcrafted functional pottery and ceramics</li><li><strong>Sol Kitchen</strong> - Prepared international street food made with local ingredients</li></ul><p>Join us on Opening Day, May 2nd, to welcome our newest vendors to the market family.</p>",
+            "summary": "We are excited to announce five new vendors joining the Maplewood Farmers Market for the 2026 outdoor season. After a competitive application process, these local businesses were selected for the qual"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "alt": "Vibrant farmers market scene with vendor booths",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "Announcement",
+              "name": "Announcement"
+            }
+          ],
+          "featured": true
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-snap-program",
+          "title": "SNAP Double Dollars Program Returns for 2026",
+          "path": "/news/snap-double-dollars-program",
+          "body": {
+            "processed": "<p>Thanks to renewed funding from the Maplewood Community Foundation, our SNAP Double Dollars program will continue for the 2026 market season. The program matches SNAP benefits dollar-for-dollar up to $20 per market visit, making fresh, local food more accessible to all community members.</p><h2>How It Works</h2><ul><li>Visit the Market Information Booth with your EBT card</li><li>Swipe your card for any amount up to $20</li><li>Receive matching wooden tokens good for fruits and vegetables</li><li>Shop at any vendor displaying the SNAP-accepted sign</li></ul><p>Since its launch in 2019, the program has distributed over $85,000 in matching funds to families in our community.</p>",
+            "summary": "Thanks to renewed funding from the Maplewood Community Foundation, our SNAP Double Dollars program will continue for the 2026 market season. The program matches SNAP benefits dollar-for-dollar up to $"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+            "alt": "Community members shopping at the farmers market",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "Community",
+              "name": "Community"
+            }
+          ],
+          "featured": true
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-music-lineup",
+          "title": "Summer Live Music Lineup Announced",
+          "path": "/news/summer-music-lineup",
+          "body": {
+            "processed": "<p>Live music returns to the Maplewood Farmers Market every Saturday morning this summer. We are thrilled to partner with the Maplewood Arts Council to bring talented local musicians to the market bandstand from 9 AM to 12 PM.</p><h2>June Lineup</h2><ul><li>June 6: The Porch Swingers (acoustic folk)</li><li>June 13: Maria Santos Trio (Latin jazz)</li><li>June 20: Blue Creek Bluegrass Band</li><li>June 27: The Songbirds (vocal harmony group)</li></ul><p>The full summer schedule through October will be posted at the market information booth and on our website. All performances are free and supported by the Maplewood Arts Council.</p>",
+            "summary": "Live music returns to the Maplewood Farmers Market every Saturday morning this summer. We are thrilled to partner with the Maplewood Arts Council to bring talented local musicians to the market bandst"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
+            "alt": "Live musician performing at an outdoor market",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "Event News",
+              "name": "Event News"
+            }
+          ],
+          "featured": false
+        }
+      ]
+    }
+  }
+}

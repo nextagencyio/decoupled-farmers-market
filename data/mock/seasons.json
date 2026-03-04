@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeSeasons": {
+      "__typename": "NodeSeasonConnection",
+      "nodes": [
+        {
+          "__typename": "NodeSeason",
+          "id": "season-outdoor",
+          "title": "Outdoor Market Season",
+          "path": "/seasons/outdoor-market",
+          "body": {
+            "processed": "<p>Our outdoor market season runs from May through October in the Maplewood Town Square. This is when the market is at its biggest and busiest, with 60+ vendors offering the widest variety of seasonal produce, baked goods, meats, cheeses, flowers, and artisan products.</p><h2>What to Expect</h2><p>The outdoor market is a true community gathering place. Arrive early for the best selection, especially baked goods and prepared foods. Live music performs most Saturdays, and rotating special events keep things fresh throughout the season. Dogs on leashes are welcome.</p>",
+            "summary": "Our outdoor market season runs from May through October in the Maplewood Town Square. This is when the market is at its biggest and busiest, with 60+ vendors offering the widest variety of seasonal pr"
+          },
+          "startDate": {
+            "timestamp": 1777726800
+          },
+          "endDate": {
+            "timestamp": 1793469600
+          },
+          "hours": "Every Saturday 8:00 AM - 1:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+            "alt": "Bustling outdoor farmers market on a sunny morning",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeSeason",
+          "id": "season-indoor",
+          "title": "Winter Indoor Market",
+          "path": "/seasons/winter-indoor-market",
+          "body": {
+            "processed": "<p>When the frost arrives, the market moves indoors to the Maplewood Community Center. The winter market features a curated group of 25-30 vendors offering stored root vegetables, greenhouse greens, baked goods, preserved foods, meats, cheeses, and artisan crafts perfect for holiday gift-giving.</p><h2>Winter Market Highlights</h2><p>The indoor market has a cozy, festive atmosphere with hot coffee from our coffee vendor, holiday wreaths and greens from local flower farms, and specialty food items that make excellent gifts. December markets feature extended holiday gift shopping hours.</p>",
+            "summary": "When the frost arrives, the market moves indoors to the Maplewood Community Center. The winter market features a curated group of 25-30 vendors offering stored root vegetables, greenhouse greens, bake"
+          },
+          "startDate": {
+            "timestamp": 1794063600
+          },
+          "endDate": {
+            "timestamp": 1808672400
+          },
+          "hours": "Every other Saturday 9:00 AM - 12:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=800&q=80",
+            "alt": "Indoor winter farmers market with holiday atmosphere",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeSeason",
+          "id": "season-holiday",
+          "title": "Holiday Market",
+          "path": "/seasons/holiday-market",
+          "body": {
+            "processed": "<p>Our special Holiday Market runs on the first three Saturdays of December with extended hours and a festive atmosphere. Find unique handmade gifts, holiday baked goods, wreaths, gift baskets, and seasonal treats. Hot cider, cocoa, and carolers add to the holiday spirit.</p><h2>Gift Guide</h2><p>Looking for the perfect locally-made gift? Our vendors offer curated gift boxes, handmade soap and candle sets, artisan food baskets, and custom flower arrangements. Pre-orders are encouraged for popular items.</p>",
+            "summary": "Our special Holiday Market runs on the first three Saturdays of December with extended hours and a festive atmosphere. Find unique handmade gifts, holiday baked goods, wreaths, gift baskets, and seaso"
+          },
+          "startDate": {
+            "timestamp": 1796482800
+          },
+          "endDate": {
+            "timestamp": 1797710400
+          },
+          "hours": "Saturdays 9:00 AM - 2:00 PM (extended hours)",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+            "alt": "Festive holiday market with wreaths and seasonal decorations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
