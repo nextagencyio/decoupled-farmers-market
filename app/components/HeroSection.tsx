@@ -23,7 +23,7 @@ export default function HeroSection({ homepageContent }: HeroSectionProps) {
         <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-tight">{title}</h1>
         {subtitle && <p className="text-xl md:text-2xl text-primary-100 mb-6 max-w-3xl mx-auto font-medium">{subtitle}</p>}
         <div className="flex gap-4 justify-center mt-8 flex-wrap">
-          <Link href="/services" className="px-8 py-4 bg-accent-400 text-primary-900 rounded-2xl font-bold text-lg hover:bg-accent-300 transition-colors duration-200">Get Started</Link>
+          <Link href="/vendors" className="px-8 py-4 bg-accent-400 text-primary-900 rounded-2xl font-bold text-lg hover:bg-accent-300 transition-colors duration-200">Get Started</Link>
           <Link href="/about" className="px-8 py-4 bg-white/20 text-white rounded-2xl font-bold text-lg border-2 border-white/40 hover:bg-white/30 transition-colors duration-200">Learn More</Link>
         </div>
       </div>

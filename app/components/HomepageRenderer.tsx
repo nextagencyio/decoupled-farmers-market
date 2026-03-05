@@ -30,7 +30,7 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
             <div>
               <h4 className="font-semibold text-white mb-4">Quick Links</h4>
               <ul className="space-y-2 text-primary-100">
-                <li><Link href="/services" className="hover:text-accent-200 transition-colors">Programs</Link></li>
+                <li><Link href="/vendors" className="hover:text-accent-200 transition-colors">Programs</Link></li>
                 <li><Link href="/events" className="hover:text-accent-200 transition-colors">Events</Link></li>
                 <li><Link href="/about" className="hover:text-accent-200 transition-colors">About</Link></li>
               </ul>
