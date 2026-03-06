@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-vendors",
               "title": "",
-              "number": "60+",
+              "number": "60+", "value": "60+",
               "label": "Local Vendors"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "30",
+              "number": "30", "value": "30",
               "label": "Years Strong"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-visitors",
               "title": "",
-              "number": "4,000+",
+              "number": "4,000+", "value": "4,000+",
               "label": "Weekly Visitors"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-local",
               "title": "",
-              "number": "100%",
+              "number": "100%", "value": "100%",
               "label": "Locally Sourced"
             }
           ],
