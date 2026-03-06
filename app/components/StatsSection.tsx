@@ -20,7 +20,7 @@ export default function StatsSection({ homepageContent }: StatsSectionProps) {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {stats.map((stat: any, i: number) => (
             <div key={stat.id || i} className={clsx('rounded-2xl border-2 p-6 text-center', cardColors[i % cardColors.length])}>
-              <div className={clsx('text-3xl md:text-4xl font-bold mb-2', textColors[i % textColors.length])}>{stat.value || stat.statValue}</div>
+              <div className={clsx('text-3xl md:text-4xl font-bold mb-2', textColors[i % textColors.length])}>{stat.value || stat.number || stat.statValue}</div>
               <div className="text-gray-700 font-semibold text-sm">{stat.label || stat.statLabel || stat.title}</div>
             </div>
           ))}
