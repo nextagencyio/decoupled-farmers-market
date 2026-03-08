@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import VendorCard from '../components/VendorCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Vendors | Farmers Market',
