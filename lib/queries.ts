@@ -12,7 +12,7 @@ export const GET_VENDOR_TEASERS = gql`
         changed { timestamp }
         ... on NodeVendor {
           body { processed summary }
-          vendorType { name }
+          vendorType { ... on TermVendorType { name } }
           products
           locationNumber
           websiteUrl
@@ -38,7 +38,7 @@ export const GET_EVENT_TEASERS = gql`
           eventDate { timestamp }
           endDate { timestamp }
           location
-          eventType { name }
+          eventType { ... on TermEventType { name } }
           image { url alt width height }
         }
       }
@@ -79,7 +79,7 @@ export const GET_NEWS_TEASERS = gql`
         ... on NodeNews {
           body { processed summary }
           image { url alt width height }
-          category { name }
+          category { ... on TermNewsCategory { name } }
           featured
         }
       }
@@ -129,7 +129,7 @@ export const GET_NODE_BY_PATH = gql`
             title
             path
             body { processed }
-            vendorType { name }
+            vendorType { ... on TermVendorType { name } }
             products
             locationNumber
             websiteUrl
@@ -146,7 +146,7 @@ export const GET_NODE_BY_PATH = gql`
             eventDate { timestamp }
             endDate { timestamp }
             location
-            eventType { name }
+            eventType { ... on TermEventType { name } }
             image { url alt width height }
             created { timestamp }
             changed { timestamp }
@@ -169,7 +169,7 @@ export const GET_NODE_BY_PATH = gql`
             path
             body { processed }
             image { url alt width height }
-            category { name }
+            category { ... on TermNewsCategory { name } }
             featured
             created { timestamp }
             changed { timestamp }

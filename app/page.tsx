@@ -4,6 +4,7 @@ import SetupGuide from './components/SetupGuide'
 import ContentSetupGuide from './components/ContentSetupGuide'
 import { Metadata } from 'next'
 import { checkConfiguration } from '../lib/config-check'
+import { GET_HOMEPAGE_DATA } from '@/lib/queries'
 
 export const revalidate = 3600
 export const dynamic = 'force-dynamic'
@@ -23,13 +24,20 @@ export default async function Home() {
     return <SetupGuide missingVars={configStatus.missingVars} />
   }
 
-  const client = getClient()
-  const homepageContent = await client.getEntryByPath('/') as any
+  try {
+    const client = getClient()
+    const data = await client.raw(GET_HOMEPAGE_DATA)
+    const homepageContent = data?.nodeHomepages?.nodes?.[0] || null
 
-  if (!homepageContent) {
+    if (!homepageContent) {
+      const drupalBaseUrl = process.env.NEXT_PUBLIC_DRUPAL_BASE_URL
+      return <ContentSetupGuide drupalBaseUrl={drupalBaseUrl} />
+    }
+
+    return <HomepageRenderer homepageContent={homepageContent} />
+  } catch (error) {
+    console.error('Error fetching homepage:', error)
     const drupalBaseUrl = process.env.NEXT_PUBLIC_DRUPAL_BASE_URL
     return <ContentSetupGuide drupalBaseUrl={drupalBaseUrl} />
   }
-
-  return <HomepageRenderer homepageContent={homepageContent} />
 }
